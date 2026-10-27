@@ -1,0 +1,6 @@
+name: "Project 1 - Bridge Builder - Starter Code - 140726"
+description: You are working with a colleague (Dave) to develop a simple proof of concept application for a meat packing company.
+ports: []
+bricks:
+- arduino:streamlit_ui: {}
+icon: 😀

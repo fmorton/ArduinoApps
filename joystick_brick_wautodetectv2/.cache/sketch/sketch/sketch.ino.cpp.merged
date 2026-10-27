@@ -1,0 +1,10 @@
+#include <Arduino.h>
+#line 1 "/home/arduino/ArduinoApps/joystick_brick_wautodetectv2/sketch/sketch.ino"
+
+void setup() {
+}
+
+void loop() {
+}
+
+
