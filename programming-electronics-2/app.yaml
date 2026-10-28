@@ -1,0 +1,9 @@
+name: "Project 2 - Robot Beeps -  Starter Code - 140726"
+description: Your colleague Clement is working on a device for Star Shine Props LLC that leverages an LLM to explore novel noises for robot props.
+ports: []
+bricks:
+- arduino:cloud_llm:
+    variables:
+      API_KEY: ${ANTHROPIC_API_KEY}
+- arduino:streamlit_ui: {}
+icon: 😀

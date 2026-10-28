@@ -1,0 +1,7 @@
+name: "Project 3 - Video Boo - Starter Code - 260526"
+description: You are working with your colleague Dave on an application for BigBoo Scary Town Inc. They sell products to companies that run haunted houses.
+ports: []
+bricks:
+- arduino:video_object_detection:
+    model: yolox-object-detection
+icon: 😀
