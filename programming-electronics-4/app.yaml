@@ -1,0 +1,11 @@
+name: "Project 4 - Cave Database - Starter Code - 140726"
+description: Your employer has been hired by a mining company to prototype a mineshaft entrance monitor. Your colleague Dave is the lead on the project, and has
+ports: []
+bricks:
+- arduino:dbstorage_tsstore:
+    variables:
+      DB_PASSWORD: ""
+      DB_USERNAME: ""
+      INFLUXDB_ADMIN_TOKEN: ""
+- arduino:streamlit_ui: {}
+icon: 😀
