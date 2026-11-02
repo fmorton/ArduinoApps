@@ -1,5 +1,0 @@
-services:
-# Optional: containers services
-  group_add:
-    - 995
-
