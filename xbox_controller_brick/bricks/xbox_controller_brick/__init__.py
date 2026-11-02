@@ -29,8 +29,10 @@ class XboxControllerBrick:
         print("DEBUG: init brick!!!!!!!!!!!")
         #self.controller = XboxController().connect()
         #self.controller = XboxController()
-        for event in pygame.event.get():
-            print("Event:" + str(event))
+        while True:
+            for event in pygame.event.get():
+                print("Event:" + str(event))
+
             time.sleep(0.25)
 
         print("DEBUG: init brick!!!!!!!!!!! DONE")
