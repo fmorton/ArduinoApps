@@ -19,15 +19,16 @@ if "XDG_RUNTIME_DIR" not in os.environ:
 # NOW you can safely import and initialize your library
 import pygame
 import time
-#pygame.init()
 
 from robot.xbox_controller import XboxController
 
 class XboxControllerBrick:
     def __init__(self):
+        pygame.init()
+
         print("DEBUG: init brick!!!!!!!!!!!")
         #self.controller = XboxController().connect()
-        self.controller = XboxController()
+        #self.controller = XboxController()
         for event in pygame.event.get():
             print("Event:" + str(event))
             time.sleep(0.25)
