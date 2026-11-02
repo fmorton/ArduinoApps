@@ -1,4 +1,4 @@
-id: xbox_controller
+id: xbox_controller_brick
 version: 1.0.0
 name: "Xbox Controller Brick"
 description: "A Python-only brick wrapper around robot-xbox-controller"

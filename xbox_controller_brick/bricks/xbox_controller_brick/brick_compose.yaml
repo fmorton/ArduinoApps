@@ -1,0 +1,7 @@
+services:
+  xbox_controller_brick:
+    group_add:
+      - "995"
+    devices:
+      - "/dev/input:/dev/input"
+    privileged: true
