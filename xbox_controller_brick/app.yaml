@@ -1,4 +1,4 @@
-id: my_xbox_app
+id: xbox_controller_app
 version: 1.0.0
 name: "Xbox Controller App"
 description: "A Python-only App Lab project using the xbox_controller brick."
