@@ -1,6 +1,9 @@
 profiles:
   default:
+    fqbn: 
     platforms:
       - platform: arduino:zephyr
     libraries:
+      - PWMMotorControl (2.2.1)
+
 default_profile: default
