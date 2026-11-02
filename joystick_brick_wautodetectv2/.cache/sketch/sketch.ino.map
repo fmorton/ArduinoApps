@@ -603,6 +603,8 @@ Discarded input sections
                 0x00000000       0x14 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
  .text._ZN19BridgeTCPClientBase7connectEN7arduino9IPAddressEt
                 0x00000000       0x30 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
+ .text.k_msleep.constprop.0.isra.0
+                0x00000000        0xc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
  .text._ZNSt12_Vector_baseIhSaIhEE11_M_allocateEj.isra.0
                 0x00000000       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
  .text.k_mutex_unlock.isra.0
@@ -611,8 +613,6 @@ Discarded input sections
                 0x00000000       0x2c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
  .text.k_mutex_init.isra.0
                 0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
- .text.k_msleep.constprop.0.isra.0
-                0x00000000        0xc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
  .text._ZN7arduino7msgpack8Unpacker11deserializeEv
                 0x00000000       0x16 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
  .text._ZNK7arduino7msgpack8Unpacker13getRawBytePtrEjj
@@ -1093,6 +1093,8 @@ Discarded input sections
                 0x00000000       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
  .text._ZN15SerialTransportD0Ev
                 0x00000000       0x14 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
+ .text.k_msleep.constprop.0.isra.0
+                0x00000000        0xc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
  .text._ZNSt12_Vector_baseIhSaIhEE11_M_allocateEj.isra.0
                 0x00000000       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
  .text.k_mutex_unlock.isra.0
@@ -1103,8 +1105,6 @@ Discarded input sections
                 0x00000000       0x10 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
  .text.k_mutex_init.isra.0
                 0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
- .text.k_msleep.constprop.0.isra.0
-                0x00000000        0xc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
  .text._ZN7arduino7msgpack8Unpacker11deserializeEv
                 0x00000000       0x16 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
  .text._ZNK7arduino7msgpack8Unpacker13getRawBytePtrEjj
@@ -1802,6 +1802,8 @@ Discarded input sections
  .text.strncmp  0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .text.strcasecmp
                 0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.strncasecmp
+                0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .text.strncpy  0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .text.strcat   0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .text.strcpy   0x00000000        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
@@ -1904,6 +1906,8 @@ Discarded input sections
  .text.__aeabi_d2uiz
                 0x00000000        0xa /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .text.__aeabi_d2lz
+                0x00000000        0xa /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .text.__aeabi_d2ulz
                 0x00000000        0xa /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .text.__aeabi_i2f
                 0x00000000        0xa /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
@@ -6824,18 +6828,18 @@ END GROUP
  .text.k_yield  0x000024e8        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
  .text.k_mutex_lock
                 0x000024f0        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
- .text._ZNSt12_Vector_baseIhSaIhEE11_M_allocateEj.isra.0
-                0x000024f8       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
- .text.k_mutex_unlock.isra.0
-                0x00002518        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
- .text._ZN13BridgeMonitorILj512EE4readEv
-                0x00002520       0x6c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
-                0x00002520                BridgeMonitor<512u>::read()
- .text._ZN13BridgeMonitorILj512EE4peekEv
-                0x0000258c       0x44 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
-                0x0000258c                BridgeMonitor<512u>::peek()
  .text.k_msleep.constprop.0.isra.0
-                0x000025d0        0xc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+                0x000024f8        0xc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+ .text._ZNSt12_Vector_baseIhSaIhEE11_M_allocateEj.isra.0
+                0x00002504       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+ .text.k_mutex_unlock.isra.0
+                0x00002524        0x8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+ .text._ZN13BridgeMonitorILj512EE4readEv
+                0x0000252c       0x6c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+                0x0000252c                BridgeMonitor<512u>::read()
+ .text._ZN13BridgeMonitorILj512EE4peekEv
+                0x00002598       0x44 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+                0x00002598                BridgeMonitor<512u>::peek()
  .text._ZN8RpcErrorC2Ev
                 0x000025dc       0x2c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
                 0x000025dc                RpcError::RpcError()
@@ -7517,42 +7521,42 @@ END GROUP
 OUTPUT(/home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch.ino_debug.elf elf32-littlearm)
 LOAD linker stubs
 
-.debug_info     0x00000000    0xdcd23
+.debug_info     0x00000000    0xdcddb
  .debug_info    0x00000000    0x23fdc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
- .debug_info    0x00023fdc    0x2e684 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
- .debug_info    0x00052660    0x363a8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
- .debug_info    0x00088a08    0x2fdb9 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
- .debug_info    0x000b87c1      0xae0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(abi.cpp.o)
- .debug_info    0x000b92a1     0x2be0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
- .debug_info    0x000bbe81     0x4a55 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
- .debug_info    0x000c08d6     0x4624 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
- .debug_info    0x000c4efa     0x26f0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
- .debug_info    0x000c75ea     0x3a49 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
- .debug_info    0x000cb033      0xe5e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
- .debug_info    0x000cbe91     0x3b5d /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
- .debug_info    0x000cf9ee     0x37bd /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
- .debug_info    0x000d31ab     0x56fc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
- .debug_info    0x000d88a7     0x447c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+ .debug_info    0x00023fdc    0x2e686 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+ .debug_info    0x00052662    0x363a9 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
+ .debug_info    0x00088a0b    0x2fdba /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
+ .debug_info    0x000b87c5      0xae0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_info    0x000b92a5     0x2be0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
+ .debug_info    0x000bbe85     0x4a55 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_info    0x000c08da     0x4624 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_info    0x000c4efe     0x27a4 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_info    0x000c76a2     0x3a49 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_info    0x000cb0eb      0xe5e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_info    0x000cbf49     0x3b5d /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_info    0x000cfaa6     0x37bd /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_info    0x000d3263     0x56fc /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .debug_info    0x000d895f     0x447c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
-.debug_abbrev   0x00000000     0x91e4
- .debug_abbrev  0x00000000     0x1250 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
- .debug_abbrev  0x00001250     0x1461 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
- .debug_abbrev  0x000026b1     0x14a2 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
- .debug_abbrev  0x00003b53     0x1475 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
- .debug_abbrev  0x00004fc8      0x317 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(abi.cpp.o)
- .debug_abbrev  0x000052df      0x6de /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
- .debug_abbrev  0x000059bd      0x6e9 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
- .debug_abbrev  0x000060a6      0x6c0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
- .debug_abbrev  0x00006766      0x2bf /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
- .debug_abbrev  0x00006a25      0x636 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
- .debug_abbrev  0x0000705b      0x32e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
- .debug_abbrev  0x00007389      0x5e0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
- .debug_abbrev  0x00007969      0x688 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
- .debug_abbrev  0x00007ff1      0xa8a /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
- .debug_abbrev  0x00008a7b      0x769 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+.debug_abbrev   0x00000000     0x9227
+ .debug_abbrev  0x00000000     0x1252 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_abbrev  0x00001252     0x1476 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+ .debug_abbrev  0x000026c8     0x14b8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
+ .debug_abbrev  0x00003b80     0x148b /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
+ .debug_abbrev  0x0000500b      0x317 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_abbrev  0x00005322      0x6de /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
+ .debug_abbrev  0x00005a00      0x6e9 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_abbrev  0x000060e9      0x6c0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_abbrev  0x000067a9      0x2bf /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_abbrev  0x00006a68      0x636 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_abbrev  0x0000709e      0x32e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_abbrev  0x000073cc      0x5e0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_abbrev  0x000079ac      0x688 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_abbrev  0x00008034      0xa8a /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .debug_abbrev  0x00008abe      0x769 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
 .debug_loclists
-                0x00000000    0x2ce5e
+                0x00000000    0x2ceb5
  .debug_loclists
                 0x00000000     0x669c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
  .debug_loclists
@@ -7570,21 +7574,21 @@ LOAD linker stubs
  .debug_loclists
                 0x00029275     0x1ce2 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
  .debug_loclists
-                0x0002af57      0xee2 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+                0x0002af57      0xf39 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .debug_loclists
-                0x0002be39       0x90 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+                0x0002be90       0x90 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
  .debug_loclists
-                0x0002bec9      0x35e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+                0x0002bf20      0x35e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
  .debug_loclists
-                0x0002c227       0xd1 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+                0x0002c27e       0xd1 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
  .debug_loclists
-                0x0002c2f8       0x46 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x0002c34f       0x46 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
  .debug_loclists
-                0x0002c33e      0x882 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x0002c395      0x882 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
  .debug_loclists
-                0x0002cbc0      0x29e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+                0x0002cc17      0x29e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
-.debug_aranges  0x00000000     0x1b28
+.debug_aranges  0x00000000     0x1b38
  .debug_aranges
                 0x00000000      0x298 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
  .debug_aranges
@@ -7602,22 +7606,22 @@ LOAD linker stubs
  .debug_aranges
                 0x00001248      0x298 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
  .debug_aranges
-                0x000014e0      0x408 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+                0x000014e0      0x418 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .debug_aranges
-                0x000018e8       0x38 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+                0x000018f8       0x38 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
  .debug_aranges
-                0x00001920       0xb0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+                0x00001930       0xb0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
  .debug_aranges
-                0x000019d0       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+                0x000019e0       0x20 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
  .debug_aranges
-                0x000019f0       0x40 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x00001a00       0x40 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
  .debug_aranges
-                0x00001a30       0xc8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x00001a40       0xc8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
  .debug_aranges
-                0x00001af8       0x30 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+                0x00001b08       0x30 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
 .debug_rnglists
-                0x00000000     0x64e9
+                0x00000000     0x64f5
  .debug_rnglists
                 0x00000000     0x10a1 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
  .debug_rnglists
@@ -7635,38 +7639,38 @@ LOAD linker stubs
  .debug_rnglists
                 0x00005ac2      0x362 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
  .debug_rnglists
-                0x00005e24      0x301 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+                0x00005e24      0x30d /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
  .debug_rnglists
-                0x00006125       0x36 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+                0x00006131       0x36 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
  .debug_rnglists
-                0x0000615b       0x7f /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+                0x00006167       0x7f /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
  .debug_rnglists
-                0x000061da       0x46 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+                0x000061e6       0x46 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
  .debug_rnglists
-                0x00006220       0x5b /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+                0x0000622c       0x5b /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
  .debug_rnglists
-                0x0000627b      0x1f2 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+                0x00006287      0x1f2 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
  .debug_rnglists
-                0x0000646d       0x7c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+                0x00006479       0x7c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
-.debug_line     0x00000000    0x28b77
- .debug_line    0x00000000     0x5ebd /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
- .debug_line    0x00005ebd     0x8074 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
- .debug_line    0x0000df31     0x95d6 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
- .debug_line    0x00017507     0x8685 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
- .debug_line    0x0001fb8c      0x506 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(abi.cpp.o)
- .debug_line    0x00020092      0xdfd /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
- .debug_line    0x00020e8f      0xf6f /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
- .debug_line    0x00021dfe     0x1d02 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
- .debug_line    0x00023b00      0xcab /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
- .debug_line    0x000247ab      0xa57 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
- .debug_line    0x00025202      0x516 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
- .debug_line    0x00025718      0xae7 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
- .debug_line    0x000261ff      0xa39 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
- .debug_line    0x00026c38     0x13b6 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
- .debug_line    0x00027fee      0xb89 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+.debug_line     0x00000000    0x28a54
+ .debug_line    0x00000000     0x5e93 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
+ .debug_line    0x00005e93     0x804a /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
+ .debug_line    0x0000dedd     0x95ac /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
+ .debug_line    0x00017489     0x865b /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_server.cpp.o
+ .debug_line    0x0001fae4      0x506 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(abi.cpp.o)
+ .debug_line    0x0001ffea      0xdfd /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
+ .debug_line    0x00020de7      0xf6f /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
+ .debug_line    0x00021d56     0x1d02 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
+ .debug_line    0x00023a58      0xcd3 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_line    0x0002472b      0xa3b /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_line    0x00025166      0x516 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_line    0x0002567c      0xabd /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_line    0x00026139      0xa1d /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_line    0x00026b56     0x1393 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .debug_line    0x00027ee9      0xb6b /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
-.debug_str      0x00000000    0x93bc9
+.debug_str      0x00000000    0x93bf6
  .debug_str     0x00000000    0x1a322 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
  .debug_str     0x0001a322    0x1ee6e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
  .debug_str     0x00039190    0x24cc6 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
@@ -7675,15 +7679,15 @@ LOAD linker stubs
  .debug_str     0x0007e753     0x1b4a /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
  .debug_str     0x0008029d     0x2243 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
  .debug_str     0x000824e0     0x1989 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
- .debug_str     0x00083e69      0xbe8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
- .debug_str     0x00084a51     0x2bea /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
- .debug_str     0x0008763b      0x64f /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
- .debug_str     0x00087c8a     0x2778 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
- .debug_str     0x0008a402     0x2a87 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
- .debug_str     0x0008ce89     0x3722 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
- .debug_str     0x000905ab     0x361e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+ .debug_str     0x00083e69      0xc15 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_str     0x00084a7e     0x2bea /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_str     0x00087668      0x64f /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_str     0x00087cb7     0x2778 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_str     0x0008a42f     0x2a87 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_str     0x0008ceb6     0x3722 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .debug_str     0x000905d8     0x361e /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
 
-.debug_frame    0x00000000     0x8f88
+.debug_frame    0x00000000     0x8fa8
  .debug_frame   0x00000000      0x970 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/sketch/sketch.ino.cpp.o
  .debug_frame   0x00000970      0xe78 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/singletons.cpp.o
  .debug_frame   0x000017e8     0x12b4 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/libraries/Arduino_RouterBridge/tcp/tcp_client.cpp.o
@@ -7692,22 +7696,22 @@ LOAD linker stubs
  .debug_frame   0x00003ccc      0x27c /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(IPAddress.cpp.o)
  .debug_frame   0x00003f48      0x3d0 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(Print.cpp.o)
  .debug_frame   0x00004318      0x7e8 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(String.cpp.o)
- .debug_frame   0x00004b00      0x894 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
- .debug_frame   0x00005394       0x68 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
- .debug_frame   0x000053fc      0x140 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
- .debug_frame   0x0000553c       0x40 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
- .debug_frame   0x0000557c       0x70 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
- .debug_frame   0x000055ec      0x220 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
- .debug_frame   0x0000580c       0x68 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
- .debug_frame   0x00005874      0x1a8 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(functexcept.o)
- .debug_frame   0x00005a1c       0x50 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(bad_alloc.o)
- .debug_frame   0x00005a6c       0xf0 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(eh_exception.o)
- .debug_frame   0x00005b5c       0xd4 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(si_class_type_info.o)
- .debug_frame   0x00005c30       0x80 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(tinfo.o)
- .debug_frame   0x00005cb0      0x2c0 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(stdexcept.o)
- .debug_frame   0x00005f70      0x744 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(cow-stdexcept.o)
- .debug_frame   0x000066b4     0x1334 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(cow-string-inst.o)
- .debug_frame   0x000079e8     0x1264 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(string-inst.o)
- .debug_frame   0x00008c4c      0x244 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(system_error.o)
- .debug_frame   0x00008e90       0x20 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(atexit_arm.o)
- .debug_frame   0x00008eb0       0xd8 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(class_type_info.o)
+ .debug_frame   0x00004b00      0x8b4 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(llext_wrappers.c.o)
+ .debug_frame   0x000053b4       0x68 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(main.cpp.o)
+ .debug_frame   0x0000541c      0x140 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(new.cpp.o)
+ .debug_frame   0x0000555c       0x40 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(threads.cpp.o)
+ .debug_frame   0x0000559c       0x70 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrCommon.cpp.o)
+ .debug_frame   0x0000560c      0x220 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrSerial.cpp.o)
+ .debug_frame   0x0000582c       0x68 /home/arduino/ArduinoApps/joystick_brick_wautodetectv2/.cache/sketch/core/core.a(zephyrPinctrl.cpp.o)
+ .debug_frame   0x00005894      0x1a8 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(functexcept.o)
+ .debug_frame   0x00005a3c       0x50 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(bad_alloc.o)
+ .debug_frame   0x00005a8c       0xf0 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(eh_exception.o)
+ .debug_frame   0x00005b7c       0xd4 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(si_class_type_info.o)
+ .debug_frame   0x00005c50       0x80 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(tinfo.o)
+ .debug_frame   0x00005cd0      0x2c0 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(stdexcept.o)
+ .debug_frame   0x00005f90      0x744 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(cow-stdexcept.o)
+ .debug_frame   0x000066d4     0x1334 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(cow-string-inst.o)
+ .debug_frame   0x00007a08     0x1264 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(string-inst.o)
+ .debug_frame   0x00008c6c      0x244 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(system_error.o)
+ .debug_frame   0x00008eb0       0x20 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(atexit_arm.o)
+ .debug_frame   0x00008ed0       0xd8 /home/arduino/.arduino15/packages/zephyr/tools/arm-zephyr-eabi/1.0.1/bin/../lib/gcc/arm-zephyr-eabi/14.3.0/../../../../arm-zephyr-eabi/lib/thumb/v8-m.main+fp/hard/libstdc++.a(class_type_info.o)
