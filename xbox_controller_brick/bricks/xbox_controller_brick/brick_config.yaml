@@ -1,0 +1,9 @@
+id: xbox_controller_brick
+version: 1.0.0
+name: "Xbox Controller Brick"
+description: "A Python-only brick wrapper around robot-xbox-controller"
+inputs:
+  - id: CONTROLLER_INDEX
+    type: integer
+    description: "The index of the connected Xbox controller"
+    default: 0
