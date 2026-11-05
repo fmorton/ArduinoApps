@@ -1,7 +1,14 @@
 services:
   xbox_controller_brick:
+    image: local_xbox_brick:latest
+    container_name: xbox_controller_brick
+    privileged: true
     group_add:
       - "995"
     devices:
       - "/dev/input:/dev/input"
-    privileged: true
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
