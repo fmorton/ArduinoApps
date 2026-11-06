@@ -5,7 +5,7 @@ logger = Logger("GreeterBrick")
 
 
 @brick
-class Greeter:
+class XboxControllerBrick:
     def __init__(self, name="World"):
         self.name = name
 

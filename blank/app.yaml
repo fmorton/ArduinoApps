@@ -1,6 +1,4 @@
 name: blank
 description: ""
 ports: []
-bricks:
-- xbox_controller_brick: {}
 icon: 😀
