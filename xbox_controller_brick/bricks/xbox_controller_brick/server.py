@@ -1,6 +1,7 @@
 import os
 import sys
-
+#from arduino.app_utils.logger import Logger
+#from arduino.app_utils import brick
 import os
 
 # 1. Force a dummy audio driver to bypass the PulseAudio/XDG error
@@ -19,8 +20,9 @@ if "XDG_RUNTIME_DIR" not in os.environ:
 # NOW you can safely import and initialize your library
 import pygame
 import time
+import socket
 
-#from robot.xbox_controller import XboxController
+from robot.xbox_controller import XboxController
 
 #class XboxControllerBrick:
 #    def __init__(self):
@@ -43,10 +45,10 @@ import time
 #logger = Logger("GreeterBrick")
 
 
-#@brick
-#class XboxControllerBrick:
-#    def __init__(self, name="World"):
-#       self.name = name
+#@@brick
+class XboxControllerBrick:
+    def __init__(self, name="World"):
+       self.name = name
 #
 #    def start(self):
 #        logger.info("Starting Greeter")
@@ -58,3 +60,17 @@ import time
 #    def loop(self):
 #        logger.info(f"Hello, {self.name}!")
 #        time.sleep(1)
+
+#logger = Logger('my_brick_logger')
+
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
+server_socket.bind(('127.0.0.1', 5001))
+
+pygame.init()
+
+controller = XboxController().connect()
+
+while True:
+    print("Server is running")
+    time.sleep(10)

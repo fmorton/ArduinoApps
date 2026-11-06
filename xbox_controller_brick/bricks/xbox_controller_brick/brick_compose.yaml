@@ -1,6 +1,21 @@
 services:
   xbox_controller_brick:
-    build: . # 👈 Add this line to build from the local directory
+    build:
+      context: .
+    container_name: xbox_controller_brick
+    develop:
+      watch:
+        - action: rebuild
+          path: ./bricks/xbox_controller_brick
+    volumes:
+      - .:/app
     privileged: true
     group_add:
       - "995"
+    devices:
+      - "/dev/input:/dev/input"
+    ports:
+      - "8080:8080"
+    environment:
+      - NODE_ENV=production
+    restart: unless-stopped
