@@ -67,10 +67,27 @@ server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 server_socket.bind(('127.0.0.1', 5001))
 
-pygame.init()
+#pygame.init()
+
+def robot(controller):
+  print("runner", controller.state.state_string())
+
+  if controller.state.button_down_milliseconds(XboxController.BUTTON_XBOX):
+      return False
+
+  sleep(XboxController.EVENT_LOOP_DELAY)
+
+  return True
+
 
 controller = XboxController().connect()
 
+controller.run(robot)
+
+print("Server loop starting up")
+
 while True:
     print("Server is running")
+    #print("runner", controller.state.state_string())
+
     time.sleep(10)
