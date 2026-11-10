@@ -21,7 +21,7 @@ class XboxControllerThread:
         return True
 
 def xbox_controller_state(payload):
-    return(controller.state)
+    return(controller.state.__dict__)
 
 
 controller = XboxController().connect()
@@ -35,6 +35,4 @@ else:
     bridge.provide("xbox_controller_state", xbox_controller_state)
 
     while True:
-        print(controller.state.__dict__)
-
         time.sleep(5)
