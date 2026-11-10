@@ -28,7 +28,7 @@ controller = XboxController().connect()
 controller_thread = XboxControllerThread(controller)
 
 bridge = Bridge()
-z
+
 if not bridge.connect(timeout=32):
     pass
 else:
