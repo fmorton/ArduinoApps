@@ -21,7 +21,7 @@ class XboxControllerThread:
         return True
 
 def xbox_controller_state(payload):
-    return(controller.state.__dict__)
+    return(controller.state.dictionary())
 
 
 controller = XboxController().connect()
