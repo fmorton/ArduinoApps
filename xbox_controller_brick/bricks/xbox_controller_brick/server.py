@@ -69,25 +69,38 @@ server_socket.bind(('127.0.0.1', 5001))
 
 #pygame.init()
 
-def robot(controller):
-  print("runner", controller.state.state_string())
+#def robot(controller):
+#  print("runner", controller.state.state_string())
 
-  if controller.state.button_down_milliseconds(XboxController.BUTTON_XBOX):
-      return False
+#  if controller.state.button_down_milliseconds(XboxController.BUTTON_XBOX):
+#      return False
 
-  sleep(XboxController.EVENT_LOOP_DELAY)
+#  time.sleep(XboxController.EVENT_LOOP_DELAY)
 
-  return True
+#  return True
 
 
-controller = XboxController().connect()
+#controller = XboxController().connect()
 
-controller.run(robot)
+#controller.run(robot)
 
-print("Server loop starting up")
+#print("Server loop starting up")
+
+pygame.init()
+
+joystick_count = pygame.joystick.get_count()
+print(f"Number of joysticks::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {joystick_count}")
+
+if joystick_count > 0:
+  joystick = pygame.joystick.Joystick(0)
+  joystick.init()
+  print(f"Connected to: {joystick.get_name()}")
 
 while True:
-    print("Server is running")
     #print("runner", controller.state.state_string())
 
-    time.sleep(10)
+    for event in pygame.event.get():
+        print("Event:" + str(event))
+
+    #time.sleep(0.25)
+
