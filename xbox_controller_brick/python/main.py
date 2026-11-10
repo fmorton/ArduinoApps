@@ -3,13 +3,12 @@ import time
 from arduino.app_utils import App
 #from xbox_controller_brick import XboxControllerBrick
 
-print("Initializing Python-Only Environment...")
-
-
 def loop():
     """This function is called repeatedly by the App framework."""
     # You can replace this with any code you want your App to run repeatedly.
-    time.sleep(1000)
+    print("python task running")
+
+    time.sleep(1)
 
     #controller = XboxControllerBrick()
 
