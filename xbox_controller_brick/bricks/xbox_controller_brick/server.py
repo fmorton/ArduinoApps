@@ -4,6 +4,7 @@ import threading
 import time
 
 #from arduino.app_utils import brick
+from arduino.router_bridge import Bridge
 from robot.xbox_controller import XboxController
 
 class XboxControllerThread:
@@ -19,12 +20,21 @@ class XboxControllerThread:
 
         return True
 
+def xbox_controller_state(payload):
+    return(controller.state)
+
 
 controller = XboxController().connect()
-
 controller_thread = XboxControllerThread(controller)
 
-while True:
-    print(controller.state.__dict__)
+bridge = Bridge()
+z
+if not bridge.connect(timeout=32):
+    pass
+else:
+    bridge.provide("xbox_controller_state", xbox_controller_state)
 
-    time.sleep(5)
+    while True:
+        print(controller.state.__dict__)
+
+        time.sleep(5)

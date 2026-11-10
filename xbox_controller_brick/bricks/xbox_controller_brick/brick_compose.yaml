@@ -9,6 +9,7 @@ services:
           path: ./bricks/xbox_controller_brick
     volumes:
       - .:/app
+      - /var/run/arduino-router.sock:/var/run/arduino-router.sock:rw
     privileged: true
     group_add:
       - "995"
@@ -18,4 +19,5 @@ services:
       - "8080:8080"
     environment:
       - NODE_ENV=production
+      - APP_SOCKET=unix:///var/run/arduino-router.sock
     restart: unless-stopped
