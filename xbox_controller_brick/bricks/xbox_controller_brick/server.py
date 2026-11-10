@@ -1,106 +1,52 @@
 import os
 import sys
+import threading
+import time
+
+#os.environ["SDL_AUDIODRIVER"] = "dummy"
+#os.environ["SDL_VIDEODRIVER"] = "dummy"
+#os.environ["SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS"] = "1"
+#if "XDG_RUNTIME_DIR" not in os.environ:
+#    os.environ["XDG_RUNTIME_DIR"] = "/tmp/runtime-root"
+
 #from arduino.app_utils.logger import Logger
 #from arduino.app_utils import brick
-import os
-
-# 1. Force a dummy audio driver to bypass the PulseAudio/XDG error
-os.environ["SDL_AUDIODRIVER"] = "dummy"
-
-# 2. Force a dummy video driver to avoid X11/Wayland display errors
-os.environ["SDL_VIDEODRIVER"] = "dummy"
-
-# 3. Prevent background event blocking if using controllers
-os.environ["SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS"] = "1"
-
-# 4. Safely redirect the runtime directory if needed
-if "XDG_RUNTIME_DIR" not in os.environ:
-    os.environ["XDG_RUNTIME_DIR"] = "/tmp/runtime-root"
-
-# NOW you can safely import and initialize your library
-import pygame
-import time
-import socket
-
 from robot.xbox_controller import XboxController
 
-#class XboxControllerBrick:
-#    def __init__(self):
-#        pygame.init()
+class XboxControllerThread:
+    def __init__(self, controller):
+        self.controller = controller
 
-#        print("DEBUG: init brick!!!!!!!!!!!")
-#        #self.controller = XboxController().connect()
-#        #self.controller = XboxController()
-#        while True:
-#            for event in pygame.event.get():
-#                print("Event:" + str(event))
+        self.thread = threading.Thread(target=controller.run, args=(self.process_event,), daemon=True)
 
-#            time.sleep(0.25)
+        self.thread.start()
 
- #       print("DEBUG: init brick!!!!!!!!!!! DONE")
+    def process_event(self, controller):
+        time.sleep(XboxController.EVENT_LOOP_DELAY)
 
-#from arduino.app_utils import brick, Logger
-#import time
+        return True
 
-#logger = Logger("GreeterBrick")
-
-
-#@@brick
-class XboxControllerBrick:
-    def __init__(self, name="World"):
-       self.name = name
-#
-#    def start(self):
-#        logger.info("Starting Greeter")
-#
-#    def stop(self):
-#        logger.info("Stopping Greeter")
-#
-#    # This is a non-blocking method that will be called repeatedly
-#    def loop(self):
-#        logger.info(f"Hello, {self.name}!")
-#        time.sleep(1)
-
-#logger = Logger('my_brick_logger')
-
-server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-server_socket.bind(('127.0.0.1', 5001))
-
+# this is the direct pygame approach
+#import pygame
 #pygame.init()
+#
+#joystick_count = pygame.joystick.get_count()
+#print(f"Number of joysticks::::: {joystick_count}")
+#
+#if joystick_count > 0:
+#  joystick = pygame.joystick.Joystick(0)
+#  joystick.init()
+#  print(f"Connected to: {joystick.get_name()}")
+#
+#while True:
+#    for event in pygame.event.get():
+#        print("Event:" + str(event))
+#
+#    time.sleep(0.25)
 
-#def robot(controller):
-#  print("runner", controller.state.state_string())
+controller = XboxController().connect()
 
-#  if controller.state.button_down_milliseconds(XboxController.BUTTON_XBOX):
-#      return False
-
-#  time.sleep(XboxController.EVENT_LOOP_DELAY)
-
-#  return True
-
-
-#controller = XboxController().connect()
-
-#controller.run(robot)
-
-#print("Server loop starting up")
-
-pygame.init()
-
-joystick_count = pygame.joystick.get_count()
-print(f"Number of joysticks::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: {joystick_count}")
-
-if joystick_count > 0:
-  joystick = pygame.joystick.Joystick(0)
-  joystick.init()
-  print(f"Connected to: {joystick.get_name()}")
+controller_thread = XboxControllerThread(controller)
 
 while True:
-    #print("runner", controller.state.state_string())
-
-    for event in pygame.event.get():
-        print("Event:" + str(event))
-
-    #time.sleep(0.25)
-
+    time.sleep(5)
