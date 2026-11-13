@@ -26,10 +26,3 @@ def loop():
 bridge = Bridge()
 
 App.run(user_loop=loop)
-
-# Start application
-# if __name__ == "__main__":
-#    # In App Lab environments, you can spawn tasks before blocking with App.run()
-#    # Or place handling loops inside your concurrent scheduler.
-#    pass
-#    # App.run()
