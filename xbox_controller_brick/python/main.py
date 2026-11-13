@@ -5,6 +5,7 @@ os.environ["APP_SOCKET"] = "unix:///var/run/arduino-router.sock"
 
 from arduino.app_utils import App
 from arduino.app_utils import Bridge
+from arduino.router_bridge import RpcError
 
 
 def loop():
