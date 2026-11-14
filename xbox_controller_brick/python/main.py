@@ -23,7 +23,6 @@ def loop():
 
     time.sleep(0.05)
 
-
 bridge = Bridge()
 
 App.run(user_loop=loop)
