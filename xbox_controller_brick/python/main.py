@@ -11,6 +11,7 @@ from arduino.router_bridge import RpcError
 def loop():
     try:
         xbox_controller_state = bridge.call("xbox_controller_state", {}, timeout=3)
+
         print("state", xbox_controller_state)
     except RpcError as rpc_err:
         print(
@@ -22,6 +23,7 @@ def loop():
         print(f"[Main Loop] RPC Call failed: {e}")
 
     time.sleep(0.05)
+
 
 bridge = Bridge()
 
