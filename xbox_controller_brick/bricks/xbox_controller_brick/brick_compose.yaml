@@ -15,8 +15,6 @@ services:
       - "995"
     devices:
       - "/dev/input:/dev/input"
-    ports:
-      - "8080:8080"
     environment:
       - NODE_ENV=production
       - APP_SOCKET=unix:///var/run/arduino-router.sock
