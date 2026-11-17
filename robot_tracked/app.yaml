@@ -12,6 +12,6 @@ icon: 😀
 ports: []
 
 # A list of bricks used by this application.
-# bricks:
+bricks:
 - xbox_controller_brick: {}
  
